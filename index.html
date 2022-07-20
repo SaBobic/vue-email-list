@@ -29,7 +29,7 @@
     </head>
         <div class="container mt-5" id="root">
             <ul v-if="emails.length === emailsNumber">
-                <li v-for="email in emails">{{email}}</li>
+                <li v-for="email in sortedEmails">{{email}}</li>
             </ul>
         </div>
     <body>
